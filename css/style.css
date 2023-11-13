@@ -5,8 +5,8 @@
 }
 
 @font-face {
-    font-family: "norse-bold";
-    src: url(../font/Norse-Bold.otf) format("otf");
+    font-family: norse-bold;
+    src: url(../font/Norse-Bold.otf);
 }
 
 .form-container{
@@ -14,8 +14,9 @@
 }
 .form-left-pane{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     background-image: url(../img/plant.jpg);
     background-size: 400px auto;
     background-repeat: no-repeat;
@@ -26,10 +27,32 @@
     
 }
 
-.img-container img{
+.img-container{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
     margin-top: 120px;
+    align-self: flex-start;
+    background-color:rgba(12, 4, 4, 0.5);
+    width: 100%;
+
+    
+}
+
+.img-container img{
+    
+
     width: 80px;
     height: auto;
+    
+}
+
+.img-container span{
+    align-self: flex-end;
+    font-family: "norse-bold";
+    font-size: 80px;
+    color: white;
+
 }
 
 
