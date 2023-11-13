@@ -7,3 +7,14 @@
 .form-container{
     display: flex;
 }
+.form-left-pane{
+    background-image: url(../img/plant.jpg);
+    background-size: 400px auto;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 600px;
+    
+
+    
+}
+
