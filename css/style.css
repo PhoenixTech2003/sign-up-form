@@ -80,6 +80,7 @@ body{
 form{
     display: flex;
     gap: 40px;
+    margin-top: 20px
 }
 
 .left-section,
