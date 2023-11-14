@@ -77,4 +77,10 @@ body{
     margin-bottom: 40px;
 }
 
+.left-section,
+.right-section{
+    display: flex;
+    flex-direction: column;
+}
+
 
