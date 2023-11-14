@@ -64,12 +64,16 @@ body{
 }
 
 .form-right-pane{
-    padding: 100px 20px;
+    padding: 100px 40px;
 }
 
 .form-right-pane > p {
     font-size: 18px;
-    font-weight: 900;
+    font-weight: 500;
+}
+
+.form-right-pane p:nth-child(2){
+    margin-top: 20px;
 }
 
 
