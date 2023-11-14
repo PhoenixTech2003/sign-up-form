@@ -89,4 +89,10 @@ form{
     flex-direction: column;
 }
 
+label{
+    margin-top: 20px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
 
