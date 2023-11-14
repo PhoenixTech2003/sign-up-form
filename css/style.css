@@ -19,6 +19,7 @@ body{
 
 .form-container{
     display: flex;
+    box-shadow: 0px 0px 2px 2px;
 }
 .form-left-pane{
     display: flex;
@@ -28,6 +29,7 @@ body{
     background-repeat: no-repeat;
     width: 400px;
     height: 600px;
+    
     
 
     
@@ -68,7 +70,7 @@ body{
 }
 
 .form-right-pane{
-    padding: 100px 40px;
+    padding: 75px 40px;
 }
 
 .form-right-pane > p {
@@ -81,10 +83,11 @@ body{
     margin-bottom: 40px;
 }
 
-form{
+.form-wrapper{
     display: flex;
     gap: 40px;
-    margin-top: 20px
+    margin-top: 10px;
+    
 }
 
 .left-section,
@@ -94,7 +97,7 @@ form{
 }
 
 label{
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 12px;
     letter-spacing: 2px;
 }
@@ -112,5 +115,20 @@ input:focus{
     outline-color: rgb(0, 174, 255);
     box-shadow: 0px 0px 4px ;
 }
+ button{
+    padding:10px 20px ;
+    margin-top: 15px;
+    color: white;
+    background-color: #596D48;
+    border: none;
+    border-radius: 10px;
+ }
+button + p{
+    margin-top: 20px;
+}
 
-
+p > a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 600;
+}
