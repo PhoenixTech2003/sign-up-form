@@ -77,6 +77,11 @@ body{
     margin-bottom: 40px;
 }
 
+form{
+    display: flex;
+    gap: 40px;
+}
+
 .left-section,
 .right-section{
     display: flex;
