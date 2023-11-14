@@ -53,4 +53,10 @@
 
 }
 
+.img-container + span {
+    margin-top: 310px;
+    align-self: center;
+    color: white;
+}
+
 
